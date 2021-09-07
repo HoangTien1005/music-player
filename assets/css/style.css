@@ -149,11 +149,6 @@ header h2 {
   background-color: var(--primary-color);
 }
 
-.song:not(.active) .body:hover .title {
-  color: var(--primary-color);
-  opacity: 0.9;
-}
-
 .song:active {
   opacity: 0.8;
 }
