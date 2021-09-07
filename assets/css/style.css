@@ -80,10 +80,6 @@ header h2 {
   transition: 0.2s linear;
 }
 
-.control .btn:not(.btn-toggle-play):hover {
-  color: var(--primary-color);
-}
-
 .control .btn.active {
   color: var(--primary-color);
 }
