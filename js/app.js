@@ -167,19 +167,6 @@ const app = {
             cdThumbAnimate.pause();
         }
 
-        // // my way of handle play button
-        // // chưa tối ưu
-        // btnPlay.onclick = function() {
-        //     _this.isPlaying = !_this.isPlaying;
-        //     player.classList.toggle('playing', _this.isPlaying);
-        //     if(_this.isPlaying){ 
-        //         audio.play() ;  
-        //         cdThumbAnimate.play();
-        //     } else {
-        //         audio.pause();
-        //         cdThumbAnimate.pause();
-        //     }
-        // }
 
         // when song progess is changed
         audio.ontimeupdate = function() {
@@ -240,8 +227,6 @@ const app = {
                 audio.play();
               }
           }
-        
-
         
     },
     loadCurrentSong: function() {
